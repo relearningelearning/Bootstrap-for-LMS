@@ -12,10 +12,17 @@ Many LMS platforms—like Canvas, Blackboard, and Moodle—utilize HTML design p
 ## How to Use Bootstrap in an LMS
 Using Bootstrap components in your LMS course is as easy as copying and pasting the HTML code into the LMS’s content editor. Here’s a step-by-step guide on how to do it:
 
- 1. Access the HTML Editor in Your LMS: Most LMS platforms allow you to switch between a WYSIWYG (What You See Is What You Get) editor and an HTML editor. To insert Bootstrap code, you need to access the HTML editor.
+ 1. Access the HTML Editor: Most LMS platforms allow you to toggle between a WYSIWYG (What You See Is What You Get) editor and an HTML editor. To insert Bootstrap code, switch to the HTML editor.
 
-2. Copy & Paste Bootstrap Code: Simply copy the HTML code provided in this resource and paste it directly into the LMS's HTML editor. The framework's pre-built components (such as grids, buttons, forms, or tables) will be displayed in your LMS page.
+2. Copy & Paste Bootstrap Code: Copy the HTML code from this resource and paste it directly into the LMS’s HTML editor. This will include Bootstrap components, such as grids, buttons, forms, or tables, will be displayed on your LMS page.
 
-3. Preview & Customize: Once you paste the code, preview the content to ensure it looks correct. You can customize the content as needed—changing text, colors, or button styles to fit your course theme or institution’s brand.
+3. Review: After pasting the code, save the page and review it to see which Bootstrap functionalities are available within your LMS.
 
-4. Save and Test Responsiveness: After making changes, save the page and view it on different devices (desktop, tablet, phone) to ensure that the content is responsive and accessible to all learners.
+4. Integrate: Once you've identified which design elements are supported by your LMS, integrate them into your own course content to enhance the design and functionality.
+
+## MIT License:
+Created by: 2024 Corey Stroeder - [Relearning.ca](https://www.relearning.ca)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
