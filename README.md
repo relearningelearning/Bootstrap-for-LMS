@@ -1,4 +1,4 @@
-# Bootstrap-for-LMS
+# Bootstrap for LMS
 Easily uncover and leverage Bootstrap framework functionality within your organization’s Learning Management System. This repository offers a curated collection of Bootstraps HTML components and examples based on Bootstrap 4.6. This HTML code unveils design rules and functionality enabling eLearning professionals to enhance their course design and functionality with creative, accessible, and visually appealing components built into the LMS. Explore these resources to discover new ways to elevate the learning experience across common LMS platforms.
 
 ## What is Bootstrap 4.6?
