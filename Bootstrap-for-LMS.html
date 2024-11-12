@@ -1,0 +1,1334 @@
+<section id="ToC">
+    <h3>Bootstrap for LMS Table of Contents</h3>
+    <p>Source: <a href="https://github.com/relearningelearning/Bootstrap-for-LMS" target="_blank"> Github - Bootstrap for LMS</a>.</p>
+
+    <ul style="column-count: 2;">
+        <li><a href="#Introduction">Bootstrap for LMS</a></li>
+        
+        
+        
+        <li>Content
+            <ul>
+                <li><a href="#Display-headings">Display Headings (<code>&lt;h2 class="display-1"&gt;Display 1&lt;/h2&gt;</code>)</a></li>
+                <li><a href="#Lead">Lead Text (<code>&lt;p class="lead"&gt;</code>)</a></li>
+                <li><a href="#Responsive-images-example">Responsive Images (<code>class=&quot;img-fluid&quot;</code>)</a></li>
+                <li><a href="#Tables">Tables (<code>&lt;table class=&quot;table&quot;&gt;</code>)</a></li>
+            </ul>
+        </li>
+        
+        <li>Components
+            <ul>
+                <li><a href="#Alerts-examples">Alerts (<code>class=&quot;alert alert-primary&quot;</code>)</a></li>
+                <li><a href="#Badge-contextual-variations">Badges (<code>class=&quot;badge badge-primary&quot;</code>)</a></li>
+                <li><a href="#Buttons">Buttons (<code>class=&quot;btn btn-primary&quot;</code>)</a></li>
+                <li><a href="#Outline-buttons">Outline Buttons (<code>class=&quot;btn btn-outline-primary&quot;</code>)</a></li>
+                <li><a href="#Button-sizes">Button Sizes (<code>class=&quot;btn btn-lg&quot;</code>)</a></li>
+                <li><a href="#Button-group">Button Group (<code>class=&quot;btn btn-group&quot;</code>)</a></li>
+                <li><a href="#Card">Card (<code>class=&quot;card&quot;</code>)</a></li>
+                <li><a href="#Accordion">Accordion (<code>class=&quot;accordion&quot;</code>)</a></li>
+                <li><a href="#Jumbotron">Jumbotron (<code>class=&quot;jumbotron&quot;</code>)</a></li>
+                <li><a href="#List-group">List Group (<code>class=&quot;list-group-item&quot;</code>)</a></li>
+                <li><a href="#Modal">Modal (<code>class=&quot;modal-dialog&quot;</code>)</a></li>
+            </ul>
+        </li>   
+        
+        <li>Utilities
+            <ul>
+                <li><a href="#Color-Text">Color - Text (<code>class=&quot;text-primary&quot;</code>)</a></li>
+                <li><a href="#Color-Background">Color - Background (<code>class=&quot;bg-primary&quot;</code>)</a></li>
+                <li><a href="#Border-color">Border Color (<code>class=&quot;border border-primary&quot;</code>)</a></li>
+                <li><a href="#Border-radius">Border Radius (<code>class=&quot;rounded&quot;</code>)</a></li>
+                <li><a href="#Shadows">Shadows (<code>class=&quot;shadow-sm&quot;</code>)</a></li>
+                
+            </ul>
+        </li>
+
+        <li>Layout
+            <ul>
+                <li><a href="#Spacing">Spacing (<code>class=&quot;m-3 p-3&quot;</code>)</a></li>
+                <li><a href="#Text-alignment">Text Alignment (<code>class=&quot;text-center&quot;</code>)</a></li>
+                <li><a href="#Grid-system">Grid System (<code>class=&quot;row grid-row&quot;</code>)</a></li>
+                <li><a href="#Embed">Media Embed (<code>class=&quot;embed-responsive embed-responsive-16by9&quot;</code>)</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#References">References</a></li>
+        <li><a href="#License">License</a></li>
+    </ul>
+    <hr />
+    <br /> 
+</section>
+
+<section id="Introduction">
+    <h3><a id="Primer">Bootstrap for LMS</a></h3>
+    <p>Easily uncover and leverage Bootstrap framework functionality within your organization's Learning Management System. This repository offers a curated collection of Bootstraps HTML components and examples based on <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">Bootstrap 4.6</a>. This HTML code unveils design rules and functionality enabling eLearning professionals to enhance their course design and functionality with creative, accessible, and visually appealing components built into the LMS. Explore these resources to discover new ways to elevate the learning experience using the provided HTML code and resources.</p>
+    
+    <h4><a id="HTML-Code">What is Bootstrap?</a></h4>
+    <p>Bootstrap is a popular open-source front-end framework that helps developers create responsive, mobile-first websites quickly and efficiently. It includes pre-designed components like grids, navigation bars, buttons, forms, tables, and media elements, all of which are easy to customize. Bootstrap ensures that your content looks good on all devices—whether desktop, tablet, or mobile.</p>
+
+    <h4>What are Class Rules</h4>
+    <p>In HTML, class rules allow you to style or control multiple elements at once by assigning them a shared class name. You apply a class to an element using the <code>class</code> attribute, and then define the styles or behaviors for that class in CSS. For example, with <code>.highlight</code> as a class name, you can make text blue and bold across any elements with that class, creating consistent design and interactivity without needing to style each element individually.</p>
+
+    <h4>How to Use this Resource</h4>
+    <p>Basically you are looking for what works.</p>
+
+    <table style="width:100%">
+        <caption>Example of <code>Code</code> in Use</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;a href="https://getbootstrap.com/" class="btn"&gt;<br />
+                        &emsp;Get Bootstrap<br />
+                        &lt;/a&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="https://getbootstrap.com/" class="btn">Get Bootstrap</h3>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <br />    
+    
+</section>
+
+
+<h2>Content</h2>
+<section id="Display-headings">
+    <h3><a id="Display-headings">Display headings</a></h3>
+    <p>Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a display heading—a larger, slightly more opinionated heading style. </p>
+
+    <table style="width:100%">
+        <caption>Display headings example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;h2 class="display-1"&gt;Display 1&lt;/h2&gt;<br>
+                        &lt;h2 class="display-2"&gt;Display 2&lt;/h2&gt;<br>
+                        &lt;h2 class="display-3"&gt;Display 3&lt;/h2&gt;<br>
+                        &lt;h2 class="display-4"&gt;Display 4&lt;/h2&gt;
+                    </code>
+                </td>
+                <td>
+                    <h2 class="display-1">Display 1</h2>
+                    <h2 class="display-2">Display 2</h2>
+                    <h2 class="display-3">Display 3</h2>
+                    <h2 class="display-4">Display 4</h2>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/content/typography/#display-headings" target="_blank">Learn more about <strong>Display</strong> at GetBootStrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Lead">
+    <h3><a id="Lead">Lead</a></h3>
+    <p>Make a paragraph stand out by using Bootstrap's <code>.lead</code> class. This slightly larger text helps emphasize important content and gives a nice contrast to standard body text.</p>
+
+    <table style="width:100%">
+        <caption>Lead example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;p class="lead"&gt;This is a lead paragraph.&lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p class="lead">This is a lead paragraph.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/content/typography/#lead" target="_blank">Learn more about <strong>Lead</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Responsive-images">
+    <h3><a id="Responsive-images-example">Responsive Images</a></h3>
+    <p>Bootstrap's responsive image classes automatically adjust image sizes to fit the parent element, ensuring images look great across various screen sizes. This is achieved by adding <code>class=&quot;img-fluid&quot;</code> to the <code>img</code> element.</p>
+
+    <table style="width:100%">
+        <caption>Responsive images example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;img src=&quot;https://picsum.photos/id/237/600/400.jpg&quot; <strong>class=&quot;img-fluid&quot;</strong> alt=&quot;A Black Labrador puppy looking up at the camera standing on a wooden deck. Image provided by Lorem Picsum.&quot;&gt;
+                    </code>
+                </td>
+                <td>
+                    <img src="https://picsum.photos/id/237/600/400.jpg" class="img-fluid" alt="A Black Labrador puppy looking up at the camera standing on a wooden deck. Image provided by Lorem Picsum.">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/content/images/#responsive-images" target="_blank">Learn more about <strong>Responsive Images</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+<section id="Tables">
+    <h3><a id="Tables">Tables</a></h3>
+    <p>Bootstrap provides a variety of table styles to enhance the presentation of tabular data. Here are some examples of tables with different styling options available through Bootstrap's <code>.table</code> class.</p>
+
+    <table style="width:100%">
+        <caption>Tables</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;table class=&quot;table table-striped table-hover&quot;&gt;<br>
+                        &emsp;&emsp;&lt;thead&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;tr&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;col&quot;&gt;#&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;col&quot;&gt;First&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;col&quot;&gt;Last&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;col&quot;&gt;Handle&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/tr&gt;<br>
+                        &emsp;&emsp;&lt;/thead&gt;<br>
+                        &emsp;&emsp;&lt;tbody&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;tr&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;Mark&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;Otto&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;@mdo&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/tr&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;tr&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;Jacob&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;Thornton&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;td&gt;@fat&lt;/td&gt;<br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/tr&gt;<br>
+                        &emsp;&emsp;&lt;/tbody&gt;<br>
+                        &lt;/table&gt;
+                        </code>
+                                             
+                </td>
+                <td>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/content/tables/#examples" target="_blank">Learn more about <strong>Tables Examples</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+<h2>Components</h2>
+<section id="Alerts">
+    <h3><a id="Alerts-examples">Alerts</a></h3>
+    <p>Bootstrap's alert component is a great way to grab attention for important information or status messages. Use contextual classes to style them according to your message's tone (e.g., success, warning, danger).</p>
+
+    <table style="width:100%">
+        <caption>Alerts examples</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        <p>&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;This is a primary alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-secondary&quot; role=&quot;alert&quot;&gt;This is a secondary alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;This is a success alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;This is a danger alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;This is a warning alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;This is an info alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-light&quot; role=&quot;alert&quot;&gt;This is a light alert—check it out!&lt;/div&gt;</p>
+                        <p>&lt;div class=&quot;alert alert-dark&quot; role=&quot;alert&quot;&gt;This is a dark alert—check it out!&lt;/div&gt;/p
+                    </code>
+                </td>
+                <td>
+                    <div class="alert alert-primary" role="alert">This is a primary alert—check it out!</div>
+                    <div class="alert alert-secondary" role="alert">This is a secondary alert—check it out!</div>
+                    <div class="alert alert-success" role="alert">This is a success alert—check it out!</div>
+                    <div class="alert alert-danger" role="alert">This is a danger alert—check it out!</div>
+                    <div class="alert alert-warning" role="alert">This is a warning alert—check it out!</div>
+                    <div class="alert alert-info" role="alert">This is an info alert—check it out!</div>
+                    <div class="alert alert-light" role="alert">This is a light alert—check it out!</div>
+                    <div class="alert alert-dark" role="alert">This is a dark alert—check it out!</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/alerts/#examples" target="_blank">Learn more about <strong>Alerts Examples</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Badge-contextual-variations">
+    <h3><a id="Badge-contextual-variations">Badge Contextual Variations</a></h3>
+    <p>Bootstrap badges can be used to add additional information to any content. You can apply contextual classes to style badges according to the type of content (e.g., success, warning, danger).</p>
+
+    <table style="width:100%">
+        <caption>Badge contextual variations example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;span class=&quot;badge badge-primary&quot;&gt;Primary&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-secondary&quot;&gt;Secondary&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-success&quot;&gt;Success&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-danger&quot;&gt;Danger&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-warning&quot;&gt;Warning&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-info&quot;&gt;Info&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-light&quot;&gt;Light&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-dark&quot;&gt;Dark&lt;/span&gt;
+                    </code>
+                </td>
+                <td>
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-secondary">Secondary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-danger">Danger</span>
+                    <span class="badge badge-warning">Warning</span>
+                    <span class="badge badge-info">Info</span>
+                    <span class="badge badge-light">Light</span>
+                    <span class="badge badge-dark">Dark</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;span class=&quot;badge badge-pill badge-primary&quot;&gt;Primary&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-secondary&quot;&gt;Secondary&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-success&quot;&gt;Success&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-danger&quot;&gt;Danger&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-warning&quot;&gt;Warning&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-info&quot;&gt;Info&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-light&quot;&gt;Light&lt;/span&gt;<br>
+                        &lt;span class=&quot;badge badge-pill badge-dark&quot;&gt;Dark&lt;/span&gt;
+                    </code>
+                </td>
+                <td>
+                    <span class="badge badge-pill badge-primary">Primary</span>
+                    <span class="badge badge-pill badge-secondary">Secondary</span>
+                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-danger">Danger</span>
+                    <span class="badge badge-pill badge-warning">Warning</span>
+                    <span class="badge badge-pill badge-info">Info</span>
+                    <span class="badge badge-pill badge-light">Light</span>
+                    <span class="badge badge-pill badge-dark">Dark</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/badge/#contextual-variations" target="_blank">Learn more about <strong>Badge Contextual Variations</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Buttons">
+    <h3><a id="Buttons">Buttons</a></h3>
+    <p>Bootstrap provides a variety of button styles through contextual classes. These buttons can be customized to fit different use cases and content types, such as success, warning, danger, or information.</p>
+
+    <table style="width:100%">
+        <caption>Buttons</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/a&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="https://getbootstrap.com" class="btn btn-primary">Primary</a>
+                    <a href="https://getbootstrap.com" class="btn btn-secondary">Secondary</a>
+                    <a href="https://getbootstrap.com" class="btn btn-success">Success</a>
+                    <a href="https://getbootstrap.com" class="btn btn-danger">Danger</a>
+                    <a href="https://getbootstrap.com" class="btn btn-warning">Warning</a>
+                    <a href="https://getbootstrap.com" class="btn btn-info">Info</a>
+                    <a href="https://getbootstrap.com" class="btn btn-light">Light</a>
+                    <a href="https://getbootstrap.com" class="btn btn-dark">Dark</a>
+                </td>
+            </tr>
+        </tbody>        
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/buttons/#examples" target="_blank">Learn more about <strong>Button Examples</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Outline-buttons">
+    <h3><a id="Outline-buttons">Outline Buttons</a></h3>
+    <p>Bootstrap provides outline buttons, which remove the background color while retaining the button's border. These buttons offer a subtle, lightweight look and are available in all the same styles as the standard buttons.</p>
+
+    <table style="width:100%">
+        <caption>Outline buttons example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Secondary&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-success&quot;&gt;Success&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-danger&quot;&gt;Danger&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-warning&quot;&gt;Warning&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-info&quot;&gt;Info&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-light&quot;&gt;Light&lt;/a&gt;<br>
+                        &lt;a href=&quot;https://getbootstrap.com&quot; class=&quot;btn btn-outline-dark&quot;&gt;Dark&lt;/a&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-primary">Primary</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-secondary">Secondary</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-success">Success</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-danger">Danger</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-warning">Warning</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-info">Info</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-light">Light</a>
+                    <a href="https://getbootstrap.com" class="btn btn-outline-dark">Dark</a>
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/buttons/#outline-buttons" target="_blank">Learn more about <strong>Outline Buttons</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Button-sizes">
+    <h3><a id="Button-sizes">Button Sizes</a></h3>
+    <p>Bootstrap buttons come in different sizes to fit various design needs. You can use <code>.btn-lg</code> for larger buttons or <code>.btn-sm</code> for smaller buttons.</p>
+
+    <table style="width:100%">
+        <caption>Button sizes example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Large button&lt;/button&gt;<br>
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary btn-lg&quot;&gt;Large button&lt;/button&gt;<br><br>
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-sm&quot;&gt;Small button&lt;/button&gt;<br>
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary btn-sm&quot;&gt;Small button&lt;/button&gt;
+                    </code>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Large button</button><br><br>
+                    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/buttons/#sizes" target="_blank">Learn more about <strong>Button Sizes</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Button-group">
+    <h3><a id="Button-group">Button Group</a></h3>
+    <p>Bootstrap's button group allows you to group a series of buttons together on a single line, making them look like a cohesive unit.</p>
+
+    <table style="width:100%">
+        <caption>Button Group</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;<br>
+                        &nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Left&lt;/button&gt;<br>
+                        &nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Middle&lt;/button&gt;<br>
+                        &nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Right&lt;/button&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">Left</button>
+                        <button type="button" class="btn btn-primary">Middle</button>
+                        <button type="button" class="btn btn-primary">Right</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/button-group/#basic-example" target="_blank">Learn more about <strong>Button Group Basic Example</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Card">
+    <h3><a id="Card">Card</a></h3>
+    <p>Bootstrap's card component is a flexible and extensible content container with multiple variants and options, including headers, footers, content, and more.</p>
+
+    <table style="width:100%">
+        <caption>Card example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=&quot;https://via.placeholder.com/150&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-body&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+                    </code>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/card/#example" target="_blank">Learn more about <strong>Card Example</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Accordion">
+    <h3><a id="Accordion">Accordion</a></h3>
+    <p>Bootstrap's accordion component allows you to toggle visibility of content sections, helping to condense and organize content in a clean and interactive way.</p>
+
+    <table style="width:100%">
+        <caption>Accordion</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>            
+                        &lt;div class=&quot;accordion&quot; id=&quot;accordionExample&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-header&quot; id=&quot;headingOne&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class=&quot;mb-0&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseOne&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collapsible Group Item #1<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
+        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; aria-labelledby=&quot;headingOne&quot; data-parent=&quot;#accordionExample&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-body&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
+        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-header&quot; id=&quot;headingTwo&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class=&quot;mb-0&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class=&quot;btn btn-link collapsed&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseTwo&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseTwo&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collapsible Group Item #2<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id=&quot;collapseTwo&quot; class=&quot;collapse&quot; aria-labelledby=&quot;headingTwo&quot; data-parent=&quot;#accordionExample&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-body&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Placeholder content for the second accordion panel. This panel is hidden by default.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
+        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-header&quot; id=&quot;headingThree&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class=&quot;mb-0&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class=&quot;btn btn-link collapsed&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseThree&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseThree&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collapsible Group Item #3<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id=&quot;collapseThree&quot; class=&quot;collapse&quot; aria-labelledby=&quot;headingThree&quot; data-parent=&quot;#accordionExample&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;card-body&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And lastly, the placeholder content for the third and final accordion panel.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </td>
+                <td>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Collapsible Group Item #1
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Placeholder content for the second accordion panel. This panel is hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example" target="_blank">Learn more about <strong>Accordion Example</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Jumbotron">
+    <h3><a id="Jumbotron">Jumbotron</a></h3>
+    <p>Bootstrap's jumbotron component is a lightweight and flexible component for showcasing key marketing messages or calls to action.</p>
+
+    <table style="width:100%">
+        <caption>Jumbotron example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                    &lt;div class=&quot;jumbotron&quot;&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1 class=&quot;display-4&quot;&gt;Hello, world!&lt;/h1&gt;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p class=&quot;lead&quot;&gt;This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;hr class=&quot;my-4&quot;&gt;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p&gt;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;<br />
+                    &lt;/div&gt;<br />
+                    </code>
+                </td>
+                <td>
+                    <div class="jumbotron">
+                        <h1 class="display-4">Hello, world!</h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/jumbotron/" target="_blank">Learn more about <strong>Jumbotron</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="List-group">
+    <h3><a id="List-group">List Group</a></h3>
+    <p>Bootstrap's list group component provides a flexible and powerful way to display a series of content. You can style these lists with various options like contextual classes, links, and buttons.</p>
+
+    <table style="width:100%">
+        <caption>List group example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;ul class=&quot;list-group&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class=&quot;list-group-item&quot;&gt;Porta ac consectetur ac&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;<br>
+                        &lt;/ul&gt;
+                    </code>
+                </td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/list-group/" target="_blank">Learn more about <strong>List Group</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Modal">
+    <h3><a id="Modal">Modal</a></h3>
+    <p>Bootstrap's modal component is a dialog box/popup window that can be used for notifications, forms, or user confirmations.</p>
+
+    <table style="width:100%">
+        <caption>Modal example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;!-- Button trigger modal --&gt;<br />
+                        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;Launch demo modal<br />
+                        &lt;/button&gt;<br /><br />
+
+                        &lt;!-- Modal --&gt;<br />
+                        &lt;div class=&quot;modal fade&quot; id=&quot;exampleModal&quot; tabindex=&quot;-1&quot; aria-labelledby=&quot;exampleModalLabel&quot; aria-hidden=&quot;true&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;modal-dialog&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;modal-content&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;modal-header&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;Modal title&lt;/h5&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;modal-body&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the content inside the modal.<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;modal-footer&quot;&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                        &lt;/div&gt;<br />
+                    </code>
+                </td>
+                <td>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            This is the content inside the modal.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/components/modal/#live-demo" target="_blank">Learn more about <strong>Modal Live Demo</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+<h2>Utilities</h2>
+<section id="Color-utility">
+    <h3><a id="Color-Text">Color - Text</a></h3>
+    <p>Bootstrap's color utility classes allow you to easily apply text color based on context using classes like <code>.text-primary</code>, <code>.text-success</code>, and more.</p>
+
+    <table style="width:100%">
+        <caption>Color utility example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p class=&quot;text-primary&quot;&gt;This is primary text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-secondary&quot;&gt;This is secondary text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-success&quot;&gt;This is success text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-danger&quot;&gt;This is danger text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-warning&quot;&gt;This is warning text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-info&quot;&gt;This is info text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-light bg-dark&quot;&gt;This is light text on a dark background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-dark&quot;&gt;This is dark text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-muted&quot;&gt;This is muted text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-white bg-dark&quot;&gt;This is white text on a dark background.&lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p class="text-primary">This is primary text.</p>
+                    <p class="text-secondary">This is secondary text.</p>
+                    <p class="text-success">This is success text.</p>
+                    <p class="text-danger">This is danger text.</p>
+                    <p class="text-warning">This is warning text.</p>
+                    <p class="text-info">This is info text.</p>
+                    <p class="text-light bg-dark">This is light text on a dark background.</p>
+                    <p class="text-dark">This is dark text.</p>
+                    <p class="text-muted">This is muted text.</p>
+                    <p class="text-white bg-dark">This is white text on a dark background.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/colors/#color" target="_blank">Learn more about <strong>Color Utility</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Color-Background">
+    <h3><a id="Color-Background">Color - Background</a></h3>
+    <p>Bootstrap's background color utility classes allow you to apply background colors easily using contextual classes like <code>.bg-primary</code>, <code>.bg-success</code>, and more.</p>
+
+    <table style="width:100%">
+        <caption>Background color utility example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p class=&quot;bg-primary text-white&quot;&gt;This is a primary background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-secondary text-white&quot;&gt;This is a secondary background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-success text-white&quot;&gt;This is a success background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-danger text-white&quot;&gt;This is a danger background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-warning text-dark&quot;&gt;This is a warning background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-info text-white&quot;&gt;This is an info background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-light text-dark&quot;&gt;This is a light background.&lt;/p&gt;<br>
+                        &lt;p class=&quot;bg-dark text-white&quot;&gt;This is a dark background.&lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p class="bg-primary text-white">This is a primary background.</p>
+                    <p class="bg-secondary text-white">This is a secondary background.</p>
+                    <p class="bg-success text-white">This is a success background.</p>
+                    <p class="bg-danger text-white">This is a danger background.</p>
+                    <p class="bg-warning text-dark">This is a warning background.</p>
+                    <p class="bg-info text-white">This is an info background.</p>
+                    <p class="bg-light text-dark">This is a light background.</p>
+                    <p class="bg-dark text-white">This is a dark background.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/colors/#background-color" target="_blank">Learn more about <strong>Background Color Utility</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Border-color">
+    <h3><a id="Border-color">Border Color</a></h3>
+    <p>Bootstrap's border color utilities allow you to easily change the color of an element's borders by applying contextual classes.</p>
+
+    <table style="width:100%">
+        <caption>Border color example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p class=&quot;border border-primary&quot;&gt;Primary border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-secondary&quot;&gt;Secondary border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-success&quot;&gt;Success border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-danger&quot;&gt;Danger border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-warning&quot;&gt;Warning border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-info&quot;&gt;Info border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-light&quot;&gt;Light border&lt;/p&gt;<br>
+                        &lt;p class=&quot;border border-dark&quot;&gt;Dark border&lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p class="border border-primary">Primary border</p>
+                    <p class="border border-secondary">Secondary border</p>
+                    <p class="border border-success">Success border</p>
+                    <p class="border border-danger">Danger border</p>
+                    <p class="border border-warning">Warning border</p>
+                    <p class="border border-info">Info border</p>
+                    <p class="border border-light">Light border</p>
+                    <p class="border border-dark">Dark border</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/borders/#border-color" target="_blank">Learn more about <strong>Border Color</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Border-radius">
+    <h3><a id="Border-radius">Border Radius</a></h3>
+    <p>Bootstrap's border radius utilities allow you to quickly round the corners of an element with classes like <code>.rounded</code>, <code>.rounded-circle</code>, and more.</p>
+
+    <table style="width:100%">
+        <caption>Border radius example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded&quot; alt=&quot;Rounded image&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded-top&quot; alt=&quot;Rounded top&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded-right&quot; alt=&quot;Rounded right&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded-bottom&quot; alt=&quot;Rounded bottom&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded-left&quot; alt=&quot;Rounded left&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/150/150.jpg&quot; class=&quot;rounded-circle&quot; alt=&quot;Circle image&quot;&gt;<br>
+                        &lt;img src=&quot;https://picsum.photos/id/237/300/150.jpg&quot; class=&quot;rounded-pill&quot; alt=&quot;Pill image&quot;&gt;
+                    </code>
+                </td>
+                <td>
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded m-1" alt="Rounded image">
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded-top m-1" alt="Rounded top">
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded-right m-1" alt="Rounded right">
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded-bottom m-1" alt="Rounded bottom">
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded-left m-1" alt="Rounded left">
+                    <img src="https://picsum.photos/id/237/150/150.jpg" class="rounded-circle m-1" alt="Circle image">
+                    <img src="https://picsum.photos/id/237/300/150.jpg" class="rounded-pill m-1" alt="Pill image">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/borders/#border-radius" target="_blank">Learn more about <strong>Border Radius</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Shadows">
+    <h3><a id="Shadows">Shadows</a></h3>
+    <p>Bootstrap's shadow utility classes allow you to easily apply shadow effects to elements with varying intensities, such as <code>.shadow-sm</code> for small shadows and <code>.shadow-lg</code> for larger shadows.</p>
+
+    <table style="width:100%">
+        <caption>Shadows examples</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;div class=&quot;shadow-sm p-3 mb-5 bg-white rounded&quot;&gt;Small shadow&lt;/div&gt;<br>
+                        &lt;div class=&quot;shadow p-3 mb-5 bg-white rounded&quot;&gt;Regular shadow&lt;/div&gt;<br>
+                        &lt;div class=&quot;shadow-lg p-3 mb-5 bg-white rounded&quot;&gt;Large shadow&lt;/div&gt;
+                    </code>
+                </td>
+                <td>
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">Small shadow</div>
+                    <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded">Large shadow</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/shadows/#examples" target="_blank">Learn more about <strong>Shadows Utility</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+<h2>Layout</h2>
+<section id="Spacing">
+    <h3><a id="Spacing">Margin &amp; Padding</a></h3>
+    <p>The Bootstrap margin and padding utility classes provide easy-to-use options for adjusting the spacing around elements. Use <strong>m-*</strong> for margins and <strong>p-*</strong> for padding, where the number specifies the amount of space.</p>
+
+    <p>The classes are named using the format <code>{property}{sides}-{size}</code> for <code>xs</code> and <code>{property}{sides}-{breakpoint}-{size}</code> for <code>sm</code>, <code>md</code>, <code>lg</code>, and <code>xl</code>.</p><p>Where <em>property</em> is one of:</p>
+    <ul>
+        <li><code>m</code> - for classes that set <code>margin</code></li>
+        <li><code>p</code> - for classes that set <code>padding</code></li>
+    </ul>
+    <p>Where <em>sides</em> is one of:</p>
+    <ul>
+        <li><code>t</code> - for classes that set <code>margin-top</code> or <code>padding-top</code></li>
+        <li><code>b</code> - for classes that set <code>margin-bottom</code> or <code>padding-bottom</code></li>
+        <li><code>l</code> - for classes that set <code>margin-left</code> or <code>padding-left</code></li>
+        <li><code>r</code> - for classes that set <code>margin-right</code> or <code>padding-right</code></li>
+        <li><code>x</code> - for classes that set both <code>*-left</code> and <code>*-right</code></li>
+        <li><code>y</code> - for classes that set both <code>*-top</code> and <code>*-bottom</code></li>
+        <li>blank - for classes that set a <code>margin</code> or <code>padding</code> on all 4 sides of the element</li>
+    </ul>
+    <p>Where <em>size</em> is one of:</p>
+    <ul>
+        <li><code>0</code> - for classes that eliminate the <code>margin</code> or <code>padding</code> by setting it to <code>0</code></li>
+        <li><code>1</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * .25</code></li>
+        <li><code>2</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * .5</code></li>
+        <li><code>3</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer</code></li>
+        <li><code>4</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * 1.5</code></li>
+        <li><code>5</code> - (by default) for classes that set the <code>margin</code> or <code>padding</code> to <code>$spacer * 3</code></li>
+        <li><code>auto</code> - for classes that set the <code>margin</code> to auto</li>
+    </ul>
+  
+    <table style="width: 100%">
+      <caption>
+        Margin &amp; Padding example
+      </caption>
+      <thead>
+        <tr>
+          <th style="width: 50%" scope="col">HTML:</th>
+          <th scope="col">Result:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <code>
+              &lt;div class="m-3 bg-light border"&gt;
+                Margin Example - <strong>m-3</strong> adds margin around the box.
+              &lt;/div&gt;<br /><br />
+              &lt;div class="p-3 bg-light border"&gt;
+                Padding Example - <strong>p-3</strong> adds padding inside the box.
+              &lt;/div&gt;
+            </code>
+          </td>
+          <td>
+            <div class="m-3 bg-light border">
+              Margin Example - <strong>m-3</strong> adds margin around the box.
+            </div>
+            <div class="p-3 bg-light border">
+              Padding Example - <strong>p-3</strong> adds padding inside the box.
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/spacing/" target="_blank">Learn more about <strong>Margin & Padding</strong> at GetBootStrap.com</a>.</p>
+    <hr />
+    <br />
+  </section>
+
+<section id="Text-alignment">
+    <h3><a id="Text-alignment">Text Alignment</a></h3>
+    <p>Bootstrap's text alignment utilities allow you to easily control the alignment of text using classes like <code>.text-left</code>, <code>.text-center</code>, and <code>.text-right</code>.</p>
+
+    <table style="width:100%">
+        <caption>Text alignment example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p class=&quot;text-left&quot;&gt;Left aligned text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-center&quot;&gt;Center aligned text.&lt;/p&gt;<br>
+                        &lt;p class=&quot;text-right&quot;&gt;Right aligned text.&lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p class="text-left">Left aligned text.</p>
+                    <p class="text-center">Center aligned text.</p>
+                    <p class="text-right">Right aligned text.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/text/#text-alignment" target="_blank">Learn more about <strong>Text Alignment</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+<section id="Grid-system">
+    <h3><a id="Grid-system">Grid System</a></h3>
+    <p>Bootstrap's grid system allows you to create responsive layouts through a series of rows and columns. You can specify the number of columns an element should span using classes like <code>.col</code>, <code>.col-4</code>, and more.</p>
+
+    <table style="width:100%">
+        <caption>Grid system example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th style="width:50%;" scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;div class=&quot;container&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row grid-row&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;col-6 p-3 bg-light border&quot;&gt;1 of 2&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;col-6 p-3 bg-light border&quot;&gt;2 of 2&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;row grid-row&quot;&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;col-4 p-3 bg-light border&quot;&gt;1 of 3&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;col-4 p-3 bg-light border&quot;&gt;2 of 3&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;col-4 p-3 bg-light border&quot;&gt;3 of 3&lt;/div&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </td>
+                <td>
+                    <div class="container">
+                        <div class="row grid-row">
+                            <div class="col-6 p-3 bg-light border">1 of 2</div>
+                            <div class="col-6 p-3 bg-light border">2 of 2</div>
+                        </div>
+                        <div class="row grid-row">
+                            <div class="col-4 p-3 bg-light border">1 of 3</div>
+                            <div class="col-4 p-3 bg-light border">2 of 3</div>
+                            <div class="col-4 p-3 bg-light border">3 of 3</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/layout/grid/" target="_blank">Learn more about <strong>Grid System</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+<section id="Embed">
+    <h3><a id="Embed">Responsive Embed</a></h3>
+    <p>Bootstrap's embed utility provides an easy way to make iframes and embeds responsive, scaling them to fit their container.</p>
+
+    <table style="width:100%">
+        <caption>Responsive embed example</caption>
+        <thead>
+            <tr>
+                <th style="width:50%;" scope="col">HTML:</th>
+                <th scope="col">Result:</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <code>
+                        &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;<br>
+                        &nbsp;&nbsp;&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_30MB.mp4&quot; allowfullscreen&gt;&lt;/iframe&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </td>
+                <td>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_30MB.mp4" allowfullscreen></iframe>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><a href="https://getbootstrap.com/docs/4.6/utilities/embed/#example" target="_blank">Learn more about <strong>Responsive Embed</strong> at GetBootstrap.com</a>.</p>    
+    <hr />
+    <br />
+</section>
+
+
+
+<section id="References">
+    <h3>References:</h3>
+
+    <p><cite>GetBootStrap.com.</cite> <br /><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.6/getting-started/introduction/</a></p>
+
+    
+
+    <hr />
+    <br />
+</section>
+
+
+<section id="License">
+    <h3>MIT License:</h3>
+    <p>Created by: 2022 Corey Stroeder  <a href="https://www.relearning.ca" target="_blank">Relearning.ca</a></p>
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+    <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+    <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</section>
